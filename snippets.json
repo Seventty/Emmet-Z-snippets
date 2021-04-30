@@ -1,8 +1,24 @@
 {
     "html": {
         "snippets": {
-            "znavbar": "#page>div.logo+ul#navigation>li*5>a{Item $}",
-            "zlayout": "div.layout>(header>h2{cities}^section>(nav>ul>li*3>a{City $})>article>h1{London}>p{London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.}>p{Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.})>footer>p{Footer}"
+            "znavbar": "#page>div.z-logo+ul#z-navigation>li*5>a{Item $}",
+            "zlayout": "div.z-layout>(header>h2{cities}^section>(nav>ul>li*3>a{City $})>article>h1{London}>p{London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.}>p{Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.})>footer>p{Footer}",
+            "zfig": "figure.myfigure#myfigure>img>figcaption.figcaption-end{A caption above the image}",
+            "ztable": "div.z-table>table>(thead>tr>th[scope='col']{row $}*3)>tbody>(tr*3>td*3{row $})",
+            "z-uList": "div.z-unordened-list>ul>li*3",
+            "z-oList": "div.z-ordened-list>ol>li*3",
+            "zcomment":"<!-- Write your comments here -->"
+        }
+    },
+    "javascriptReact": {
+        "snippets": {
+            "znavbar": "#page>div.z-logo+ul#z-navigation>li*5>a{Item $}",
+            "zlayout": "div.z-layout>(header>h2{cities}^section>(nav>ul>li*3>a{City $})>article>h1{London}>p{London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.}>p{Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.})>footer>p{Footer}",
+            "zfig": "figure.myfigure#myfigure>img>figcaption.figcaption-end{A caption above the image}",
+            "ztable": "div.z-table>table>(thead>tr>th[scope='col']{row $}*3)>tbody>(tr*3>td*3{row $})",
+            "z-uList": "div.z-unordened-list>ul>li*3",
+            "z-oList": "div.z-ordened-list>ol>li*3",
+            "zcomment":"<!-- Write your comments here -->"
         }
     }
 }
